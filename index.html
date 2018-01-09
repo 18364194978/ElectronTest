@@ -2,18 +2,44 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <!-- <title>Hello World!</title> 此处可以直接设置成外边框展示的标题-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/common.css">  -->
+    <!-- <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="css/first.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <!-- <h1>Hello World!</h1> -->
     <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-
+    <!-- We areenen using Node.js <script>document.write(process.versions.node)</script>, -->
+    <!-- Chromium <script>document.write(process.versions.chrome)</script>, -->
+    <!-- and Electron <script>document.write(process.versions.electron)</script>. -->
+   <div class="main" >
+   <input type="button" name="button" id="button" value="登录"/>
+   </div>
+   <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+   <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+   <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+   <script type="text/javascript" src="js/jquery.hotkeys.js"></script>
+   <script type="text/javascript" src="js/qwebchannel.js"></script>
+   <script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/zTree/js/jquery.ztree.all-3.5.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap-table/bootstrap-table.js"></script>
+   <script type="text/javascript" src="js/bootstrap-table/bootstrap-table-zh-CN.js"></script>
+   <script type="text/javascript" src="js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap-table/bootstrap-editable.js"></script>
+   <script type="text/javascript" src="js/bootstrap-table/bootstrap-table-editable.js"></script>
+   <script type="text/javascript" src="js/noty/js/noty/packaged/jquery.noty.packaged.min.js"></script>
+   <script type="text/javascript" src="js/moment.min.js"></script>
+   <script type="text/javascript" src="js/pinyin.js"></script>
+   <script type="text/javascript" src="script/renderer.js"></script>
+   <script>if (window.module) module = window.module;</script>
     <script>
       // You can also require other files to run in this process
-      require('./renderer.js')
+      // require('./renderer.js');
     </script>
   </body>
 </html>
